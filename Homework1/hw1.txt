@@ -1,0 +1,37 @@
+Processing time for CPU: 42.788960 (ms) 
+-------- Block size: (4, 4) --------- 
+   *input time:      61.614079 (ms) 
+   *processing time: 23.346369 (ms) 
+   *output time:     51.581024 (ms) 
+   *total time:      136.541473 (ms) 
+    Difference with ans from CPU: 0.000000e+00 
+-------- Block size: (8, 8) --------- 
+   *input time:      54.348766 (ms) 
+   *processing time: 12.791200 (ms) 
+   *output time:     32.444832 (ms) 
+   *total time:      99.584801 (ms) 
+    Difference with ans from CPU: 0.000000e+00 
+-------- Block size: (10, 10) --------- 
+   *input time:      56.138977 (ms) 
+   *processing time: 13.589600 (ms) 
+   *output time:     32.434433 (ms) 
+   *total time:      102.163010 (ms) 
+    Difference with ans from CPU: 0.000000e+00 
+-------- Block size: (16, 16) --------- 
+   *input time:      54.333408 (ms) 
+   *processing time: 9.740704 (ms) 
+   *output time:     32.350494 (ms) 
+   *total time:      96.424606 (ms) 
+    Difference with ans from CPU: 0.000000e+00 
+-------- Block size: (20, 20) --------- 
+   *input time:      54.257954 (ms) 
+   *processing time: 10.698784 (ms) 
+   *output time:     32.396130 (ms) 
+   *total time:      97.352875 (ms) 
+    Difference with ans from CPU: 0.000000e+00 
+-------- Block size: (32, 32) --------- 
+   *input time:      54.238209 (ms) 
+   *processing time: 11.869728 (ms) 
+   *output time:     32.376766 (ms) 
+   *total time:      98.484711 (ms) 
+    Difference with ans from CPU: 0.000000e+00 
