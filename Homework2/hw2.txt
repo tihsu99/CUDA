@@ -1,0 +1,256 @@
+Processing time for CPU: 46.159870 (ms) , result: 1.000000
+-------- (gridsize,blocksize) ------------
+--------- Structure: (256, 8) ----------- 
+  *input time:        53.726944 (ms) 
+  *process time(GPU): 13.419008 (ms) 
+  *output time:       0.015584 (ms) 
+  *process time(CPU): 0.001536 (ms) 
+  *total time:        67.163071 (ms) 
+  *result:            1.000000 
+--------- Structure: (512, 8) ----------- 
+  *input time:        59.582623 (ms) 
+  *process time(GPU): 12.968448 (ms) 
+  *output time:       0.014272 (ms) 
+  *process time(CPU): 0.001408 (ms) 
+  *total time:        72.566757 (ms) 
+  *result:            1.000000 
+--------- Structure: (1024, 8) ----------- 
+  *input time:        58.730145 (ms) 
+  *process time(GPU): 12.938848 (ms) 
+  *output time:       0.013504 (ms) 
+  *process time(CPU): 0.001376 (ms) 
+  *total time:        71.683868 (ms) 
+  *result:            1.000000 
+--------- Structure: (2048, 8) ----------- 
+  *input time:        58.681087 (ms) 
+  *process time(GPU): 11.298080 (ms) 
+  *output time:       0.021952 (ms) 
+  *process time(CPU): 0.001408 (ms) 
+  *total time:        70.002533 (ms) 
+  *result:            1.000000 
+--------- Structure: (4096, 8) ----------- 
+  *input time:        57.906113 (ms) 
+  *process time(GPU): 10.682304 (ms) 
+  *output time:       0.023296 (ms) 
+  *process time(CPU): 0.002528 (ms) 
+  *total time:        68.614235 (ms) 
+  *result:            1.000000 
+--------- Structure: (8192, 8) ----------- 
+  *input time:        57.915169 (ms) 
+  *process time(GPU): 10.521760 (ms) 
+  *output time:       0.034400 (ms) 
+  *process time(CPU): 0.005184 (ms) 
+  *total time:        68.476509 (ms) 
+  *result:            1.000000 
+--------- Structure: (256, 16) ----------- 
+  *input time:        57.787041 (ms) 
+  *process time(GPU): 6.259744 (ms) 
+  *output time:       0.014176 (ms) 
+  *process time(CPU): 0.001344 (ms) 
+  *total time:        64.062302 (ms) 
+  *result:            1.000000 
+--------- Structure: (512, 16) ----------- 
+  *input time:        57.803490 (ms) 
+  *process time(GPU): 6.213344 (ms) 
+  *output time:       0.013120 (ms) 
+  *process time(CPU): 0.001312 (ms) 
+  *total time:        64.031265 (ms) 
+  *result:            1.000000 
+--------- Structure: (1024, 16) ----------- 
+  *input time:        57.772320 (ms) 
+  *process time(GPU): 6.262624 (ms) 
+  *output time:       0.013824 (ms) 
+  *process time(CPU): 0.001312 (ms) 
+  *total time:        64.050079 (ms) 
+  *result:            1.000000 
+--------- Structure: (2048, 16) ----------- 
+  *input time:        57.808800 (ms) 
+  *process time(GPU): 5.568224 (ms) 
+  *output time:       0.015200 (ms) 
+  *process time(CPU): 0.001408 (ms) 
+  *total time:        63.393631 (ms) 
+  *result:            1.000000 
+--------- Structure: (4096, 16) ----------- 
+  *input time:        57.814495 (ms) 
+  *process time(GPU): 5.244224 (ms) 
+  *output time:       0.021408 (ms) 
+  *process time(CPU): 0.002720 (ms) 
+  *total time:        63.082848 (ms) 
+  *result:            1.000000 
+--------- Structure: (8192, 16) ----------- 
+  *input time:        57.805950 (ms) 
+  *process time(GPU): 5.260832 (ms) 
+  *output time:       0.031232 (ms) 
+  *process time(CPU): 0.004992 (ms) 
+  *total time:        63.103004 (ms) 
+  *result:            1.000000 
+--------- Structure: (256, 32) ----------- 
+  *input time:        57.785728 (ms) 
+  *process time(GPU): 3.160032 (ms) 
+  *output time:       0.012640 (ms) 
+  *process time(CPU): 0.001344 (ms) 
+  *total time:        60.959743 (ms) 
+  *result:            1.000000 
+--------- Structure: (512, 32) ----------- 
+  *input time:        57.864895 (ms) 
+  *process time(GPU): 3.196288 (ms) 
+  *output time:       0.013792 (ms) 
+  *process time(CPU): 0.001408 (ms) 
+  *total time:        61.076382 (ms) 
+  *result:            1.000000 
+--------- Structure: (1024, 32) ----------- 
+  *input time:        57.797825 (ms) 
+  *process time(GPU): 3.177728 (ms) 
+  *output time:       0.014144 (ms) 
+  *process time(CPU): 0.001312 (ms) 
+  *total time:        60.991009 (ms) 
+  *result:            1.000000 
+--------- Structure: (2048, 32) ----------- 
+  *input time:        57.776737 (ms) 
+  *process time(GPU): 2.898080 (ms) 
+  *output time:       0.014272 (ms) 
+  *process time(CPU): 0.001376 (ms) 
+  *total time:        60.690464 (ms) 
+  *result:            1.000000 
+--------- Structure: (4096, 32) ----------- 
+  *input time:        57.805695 (ms) 
+  *process time(GPU): 2.771136 (ms) 
+  *output time:       0.021952 (ms) 
+  *process time(CPU): 0.002688 (ms) 
+  *total time:        60.601475 (ms) 
+  *result:            1.000000 
+--------- Structure: (8192, 32) ----------- 
+  *input time:        57.824417 (ms) 
+  *process time(GPU): 2.803296 (ms) 
+  *output time:       0.033952 (ms) 
+  *process time(CPU): 0.006880 (ms) 
+  *total time:        60.668545 (ms) 
+  *result:            1.000000 
+--------- Structure: (256, 64) ----------- 
+  *input time:        57.795586 (ms) 
+  *process time(GPU): 2.199872 (ms) 
+  *output time:       0.012256 (ms) 
+  *process time(CPU): 0.001376 (ms) 
+  *total time:        60.009090 (ms) 
+  *result:            1.000000 
+--------- Structure: (512, 64) ----------- 
+  *input time:        57.808990 (ms) 
+  *process time(GPU): 2.245856 (ms) 
+  *output time:       0.013760 (ms) 
+  *process time(CPU): 0.001376 (ms) 
+  *total time:        60.069984 (ms) 
+  *result:            1.000000 
+--------- Structure: (1024, 64) ----------- 
+  *input time:        57.807743 (ms) 
+  *process time(GPU): 2.312480 (ms) 
+  *output time:       0.013728 (ms) 
+  *process time(CPU): 0.001344 (ms) 
+  *total time:        60.135296 (ms) 
+  *result:            1.000000 
+--------- Structure: (2048, 64) ----------- 
+  *input time:        57.801662 (ms) 
+  *process time(GPU): 2.180640 (ms) 
+  *output time:       0.014464 (ms) 
+  *process time(CPU): 0.001344 (ms) 
+  *total time:        59.998112 (ms) 
+  *result:            1.000000 
+--------- Structure: (4096, 64) ----------- 
+  *input time:        57.790913 (ms) 
+  *process time(GPU): 2.138304 (ms) 
+  *output time:       0.020448 (ms) 
+  *process time(CPU): 0.002880 (ms) 
+  *total time:        59.952545 (ms) 
+  *result:            1.000000 
+--------- Structure: (8192, 64) ----------- 
+  *input time:        57.836319 (ms) 
+  *process time(GPU): 2.150368 (ms) 
+  *output time:       0.027200 (ms) 
+  *process time(CPU): 0.004960 (ms) 
+  *total time:        60.018845 (ms) 
+  *result:            1.000000 
+--------- Structure: (256, 128) ----------- 
+  *input time:        57.789665 (ms) 
+  *process time(GPU): 2.259328 (ms) 
+  *output time:       0.012512 (ms) 
+  *process time(CPU): 0.001312 (ms) 
+  *total time:        60.062817 (ms) 
+  *result:            1.000000 
+--------- Structure: (512, 128) ----------- 
+  *input time:        57.820415 (ms) 
+  *process time(GPU): 2.313216 (ms) 
+  *output time:       0.014016 (ms) 
+  *process time(CPU): 0.001408 (ms) 
+  *total time:        60.149055 (ms) 
+  *result:            1.000000 
+--------- Structure: (1024, 128) ----------- 
+  *input time:        57.793983 (ms) 
+  *process time(GPU): 2.189504 (ms) 
+  *output time:       0.013792 (ms) 
+  *process time(CPU): 0.001344 (ms) 
+  *total time:        59.998619 (ms) 
+  *result:            1.000000 
+--------- Structure: (2048, 128) ----------- 
+  *input time:        57.792480 (ms) 
+  *process time(GPU): 2.131616 (ms) 
+  *output time:       0.014336 (ms) 
+  *process time(CPU): 0.001312 (ms) 
+  *total time:        59.939743 (ms) 
+  *result:            1.000000 
+--------- Structure: (4096, 128) ----------- 
+  *input time:        57.789886 (ms) 
+  *process time(GPU): 2.137536 (ms) 
+  *output time:       0.023200 (ms) 
+  *process time(CPU): 0.002592 (ms) 
+  *total time:        59.953213 (ms) 
+  *result:            1.000000 
+--------- Structure: (8192, 128) ----------- 
+  *input time:        57.836033 (ms) 
+  *process time(GPU): 2.149568 (ms) 
+  *output time:       0.031136 (ms) 
+  *process time(CPU): 0.005184 (ms) 
+  *total time:        60.021919 (ms) 
+  *result:            1.000000 
+--------- Structure: (256, 256) ----------- 
+  *input time:        57.781666 (ms) 
+  *process time(GPU): 2.324160 (ms) 
+  *output time:       0.012352 (ms) 
+  *process time(CPU): 0.001440 (ms) 
+  *total time:        60.119617 (ms) 
+  *result:            1.000000 
+--------- Structure: (512, 256) ----------- 
+  *input time:        57.780930 (ms) 
+  *process time(GPU): 2.191872 (ms) 
+  *output time:       0.012640 (ms) 
+  *process time(CPU): 0.001344 (ms) 
+  *total time:        59.986786 (ms) 
+  *result:            1.000000 
+--------- Structure: (1024, 256) ----------- 
+  *input time:        57.825214 (ms) 
+  *process time(GPU): 2.144160 (ms) 
+  *output time:       0.013408 (ms) 
+  *process time(CPU): 0.001312 (ms) 
+  *total time:        59.984097 (ms) 
+  *result:            1.000000 
+--------- Structure: (2048, 256) ----------- 
+  *input time:        57.810272 (ms) 
+  *process time(GPU): 2.147872 (ms) 
+  *output time:       0.013376 (ms) 
+  *process time(CPU): 0.001376 (ms) 
+  *total time:        59.972897 (ms) 
+  *result:            1.000000 
+--------- Structure: (4096, 256) ----------- 
+  *input time:        57.791935 (ms) 
+  *process time(GPU): 2.160960 (ms) 
+  *output time:       0.022400 (ms) 
+  *process time(CPU): 0.002560 (ms) 
+  *total time:        59.977856 (ms) 
+  *result:            1.000000 
+--------- Structure: (8192, 256) ----------- 
+  *input time:        57.797855 (ms) 
+  *process time(GPU): 2.146240 (ms) 
+  *output time:       0.030304 (ms) 
+  *process time(CPU): 0.005120 (ms) 
+  *total time:        59.979519 (ms) 
+  *result:            1.000000 
+------- best setting (2048, 128) ------------
+  *performance = 59.939743 (ms) 
