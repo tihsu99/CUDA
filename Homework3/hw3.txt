@@ -1,0 +1,73 @@
+Select GPU with device ID = 1
+-------- 8 X 8 X 8 -----------
+
+Total time: 2.618912 (ms)
+ r =  3, Phi_sim = -0.0574, Phi_th = -0.0531, sim/th = 1.082
+ r =  2, Phi_sim = -0.0424, Phi_th = -0.0398, sim/th = 1.066
+ r =  1, Phi_sim =  0.0000, Phi_th =  0.0000, sim/th = -nan
+
+-------- 16 X 16 X 16 -----------
+
+Total time: 9.916224 (ms)
+ r =  7, Phi_sim = -0.0748, Phi_th = -0.0682, sim/th = 1.097
+ r =  6, Phi_sim = -0.0727, Phi_th = -0.0663, sim/th = 1.096
+ r =  5, Phi_sim = -0.0698, Phi_th = -0.0637, sim/th = 1.097
+ r =  4, Phi_sim = -0.0656, Phi_th = -0.0597, sim/th = 1.099
+ r =  3, Phi_sim = -0.0584, Phi_th = -0.0531, sim/th = 1.101
+ r =  2, Phi_sim = -0.0431, Phi_th = -0.0398, sim/th = 1.083
+ r =  1, Phi_sim =  0.0000, Phi_th =  0.0000, sim/th = -nan
+
+-------- 32 X 32 X 32 -----------
+
+Total time: 40.201122 (ms)
+ r = 15, Phi_sim = -0.0811, Phi_th = -0.0743, sim/th = 1.092
+ r = 14, Phi_sim = -0.0806, Phi_th = -0.0739, sim/th = 1.091
+ r = 13, Phi_sim = -0.0801, Phi_th = -0.0735, sim/th = 1.090
+ r = 12, Phi_sim = -0.0795, Phi_th = -0.0729, sim/th = 1.090
+ r = 11, Phi_sim = -0.0789, Phi_th = -0.0723, sim/th = 1.090
+ r = 10, Phi_sim = -0.0781, Phi_th = -0.0716, sim/th = 1.090
+ r =  9, Phi_sim = -0.0772, Phi_th = -0.0707, sim/th = 1.091
+ r =  8, Phi_sim = -0.0761, Phi_th = -0.0696, sim/th = 1.092
+ r =  7, Phi_sim = -0.0746, Phi_th = -0.0682, sim/th = 1.094
+ r =  6, Phi_sim = -0.0727, Phi_th = -0.0663, sim/th = 1.096
+ r =  5, Phi_sim = -0.0699, Phi_th = -0.0637, sim/th = 1.099
+ r =  4, Phi_sim = -0.0658, Phi_th = -0.0597, sim/th = 1.102
+ r =  3, Phi_sim = -0.0585, Phi_th = -0.0531, sim/th = 1.103
+ r =  2, Phi_sim = -0.0432, Phi_th = -0.0398, sim/th = 1.085
+ r =  1, Phi_sim =  0.0000, Phi_th =  0.0000, sim/th = -nan
+
+-------- 64 X 64 X 64 -----------
+
+Total time: 629.250061 (ms)
+ r = 31, Phi_sim = -0.0837, Phi_th = -0.0770, sim/th = 1.087
+ r = 30, Phi_sim = -0.0836, Phi_th = -0.0769, sim/th = 1.087
+ r = 29, Phi_sim = -0.0835, Phi_th = -0.0768, sim/th = 1.087
+ r = 28, Phi_sim = -0.0834, Phi_th = -0.0767, sim/th = 1.086
+ r = 27, Phi_sim = -0.0832, Phi_th = -0.0766, sim/th = 1.086
+ r = 26, Phi_sim = -0.0831, Phi_th = -0.0765, sim/th = 1.086
+ r = 25, Phi_sim = -0.0830, Phi_th = -0.0764, sim/th = 1.086
+ r = 24, Phi_sim = -0.0828, Phi_th = -0.0763, sim/th = 1.086
+ r = 23, Phi_sim = -0.0827, Phi_th = -0.0761, sim/th = 1.086
+ r = 22, Phi_sim = -0.0825, Phi_th = -0.0760, sim/th = 1.086
+ r = 21, Phi_sim = -0.0823, Phi_th = -0.0758, sim/th = 1.086
+ r = 20, Phi_sim = -0.0821, Phi_th = -0.0756, sim/th = 1.086
+ r = 19, Phi_sim = -0.0819, Phi_th = -0.0754, sim/th = 1.086
+ r = 18, Phi_sim = -0.0817, Phi_th = -0.0752, sim/th = 1.086
+ r = 17, Phi_sim = -0.0814, Phi_th = -0.0749, sim/th = 1.087
+ r = 16, Phi_sim = -0.0811, Phi_th = -0.0746, sim/th = 1.087
+ r = 15, Phi_sim = -0.0808, Phi_th = -0.0743, sim/th = 1.087
+ r = 14, Phi_sim = -0.0804, Phi_th = -0.0739, sim/th = 1.088
+ r = 13, Phi_sim = -0.0799, Phi_th = -0.0735, sim/th = 1.088
+ r = 12, Phi_sim = -0.0794, Phi_th = -0.0729, sim/th = 1.089
+ r = 11, Phi_sim = -0.0788, Phi_th = -0.0723, sim/th = 1.089
+ r = 10, Phi_sim = -0.0781, Phi_th = -0.0716, sim/th = 1.090
+ r =  9, Phi_sim = -0.0772, Phi_th = -0.0707, sim/th = 1.091
+ r =  8, Phi_sim = -0.0761, Phi_th = -0.0696, sim/th = 1.092
+ r =  7, Phi_sim = -0.0746, Phi_th = -0.0682, sim/th = 1.094
+ r =  6, Phi_sim = -0.0727, Phi_th = -0.0663, sim/th = 1.096
+ r =  5, Phi_sim = -0.0700, Phi_th = -0.0637, sim/th = 1.099
+ r =  4, Phi_sim = -0.0658, Phi_th = -0.0597, sim/th = 1.102
+ r =  3, Phi_sim = -0.0585, Phi_th = -0.0531, sim/th = 1.103
+ r =  2, Phi_sim = -0.0432, Phi_th = -0.0398, sim/th = 1.085
+ r =  1, Phi_sim =  0.0000, Phi_th =  0.0000, sim/th = -nan
+
