@@ -1,0 +1,37 @@
+ ----------- (NGPU, blocksize_x, blocksize_y) --------
+ ----- Structure: (2, 8, 8) ------
+  *input time:     5.097600 (ms) 
+  *process time:   160652.187500 (ms) 
+  *output time:    4.051200 (ms) 
+  *total time:     160661.328125 (ms) 
+  *Phi[5000]:      273.040955 
+ ----- Structure: (2, 16, 16) ------
+  *input time:     4.924800 (ms) 
+  *process time:   148661.562500 (ms) 
+  *output time:    3.603136 (ms) 
+  *total time:     148670.093750 (ms) 
+  *Phi[5000]:      273.040955 
+ ----- Structure: (2, 32, 32) ------
+  *input time:     4.878784 (ms) 
+  *process time:   168293.921875 (ms) 
+  *output time:    3.487136 (ms) 
+  *total time:     168302.281250 (ms) 
+  *Phi[5000]:      273.040955 
+ ----- Structure: (1, 8, 8) ------
+  *input time:     8.465536 (ms) 
+  *process time:   413249.000000 (ms) 
+  *output time:    6.138208 (ms) 
+  *total time:     413263.593750 (ms) 
+  *Phi[5000]:      273.040955 
+ ----- Structure: (1, 16, 16) ------
+  *input time:     339.202759 (ms) 
+  *process time:   298604.093750 (ms) 
+  *output time:    6.014048 (ms) 
+  *total time:     298949.281250 (ms) 
+  *Phi[5000]:      273.040955 
+ ----- Structure: (1, 32, 32) ------
+  *input time:     8.790496 (ms) 
+  *process time:   318247.281250 (ms) 
+  *output time:    5.821888 (ms) 
+  *total time:     318261.875000 (ms) 
+  *Phi[5000]:      273.040955 
