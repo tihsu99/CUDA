@@ -15,11 +15,11 @@ unsigned int *d_hist_share;
 unsigned int *c_hist;
 
 void RandomUniform(float*, long);
-void RandomExponential(float*, long, const float);
+void RandomExponential(float*, long);
 
 __global__ void hist_globalmem(float *data, const long N,
 	                       unsigned int *hist, const float Rmin,
-			       const float binsize)
+			       const int nbins, const float binsize)
 {
   // use global memory 
 
@@ -28,7 +28,7 @@ __global__ void hist_globalmem(float *data, const long N,
 
   while(i < N){
     int index = (int)((data[i]-Rmin)/binsize);
-    atomicAdd(&hist[index],1);
+    if(index < nbins) atomicAdd(&hist[index],1);
     i += strip;  // jump to next grid
   }
   __syncthreads();
@@ -48,7 +48,7 @@ __global__ void hist_sharemem(float *data, const long N,
 
   while(i < N){
     int index = (int)((data[i]-Rmin)/binsize);
-    atomicAdd(&temp[index],1);
+    if(index < nbins) atomicAdd(&temp[index],1);
     i += strip;
   }
   __syncthreads();
@@ -93,7 +93,7 @@ int main(void)
 
   srand(time(NULL));
 
-  RandomExponential(h_data, N, Rmax-0.0001);
+  RandomExponential(h_data, N);
 
   // create the timer
   cudaEvent_t start, stop;
@@ -136,7 +136,7 @@ int main(void)
         cudaMemcpy(d_hist_global, h_hist_global, bsize, cudaMemcpyHostToDevice);
 
         hist_globalmem<<<gridsize, blocksize>>>(d_data_global,N,d_hist_global,
-		                              Rmin, binsize);
+		                              Rmin, nbins, binsize);
         cudaMemcpy(h_hist_global, d_hist_global, bsize, cudaMemcpyDeviceToHost);
 
         cudaEventRecord(stop,0);
@@ -218,7 +218,7 @@ int main(void)
   cudaEventRecord(start,0);
   for(int i=0; i<N; i++){
     index = (int)((h_data[i]-Rmin)/binsize);
-    c_hist[index]++;
+    if(index < nbins)  c_hist[index]++;
   }
   cudaEventRecord(stop,0);
   cudaEventSynchronize(stop);
@@ -254,14 +254,11 @@ void RandomUniform(float* data, long n)
   }
 }
 
-void RandomExponential(float* data, long n, const float cutoff)
+void RandomExponential(float* data, long n)
 {
   for(long i=0; i < n; i++){
     double y = (double) rand() / (float)RAND_MAX;
     double x = -log(1.0-y);
-    if(x > cutoff){
-      x = cutoff;
-    }
     data[i]  = x;
   }
 }
