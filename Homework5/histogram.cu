@@ -117,8 +117,6 @@ int main(void)
     for(int k=0; k < 5; k++){
 
       // Initialize
-      memset(h_hist_global, 0, bsize);
-      memset(h_hist_share,  0, bsize);
       int gridsize  = gridsize_list[j];
       int blocksize = blocksize_list[k];
 
@@ -128,6 +126,7 @@ int main(void)
 
       time = 0.;
       for(int t=0; t<3; t++){
+	memset(h_hist_global, 0, bsize);
 	cudaEventRecord(start,0);
 
         cudaMalloc((void**)&d_hist_global, bsize);
@@ -168,6 +167,8 @@ int main(void)
       // Share memory
       time = 0.;
       for(int t=0; t<3; t++){
+
+	memset(h_hist_share, 0, bsize);
         cudaEventRecord(start,0);
       
         cudaMalloc((void**)&d_hist_share, bsize);
