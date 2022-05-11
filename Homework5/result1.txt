@@ -1,0 +1,103 @@
+**(gridsize, blocksize):(16,16)
+  - global memory(GPU): 154.249435 (ms)
+  - share memory(GPU): 157.285233 (ms)
+
+**(gridsize, blocksize):(16,32)
+  - global memory(GPU): 106.822929 (ms)
+  - share memory(GPU): 108.838280 (ms)
+
+**(gridsize, blocksize):(16,64)
+  - global memory(GPU): 94.749763 (ms)
+  - share memory(GPU): 92.592567 (ms)
+
+**(gridsize, blocksize):(16,128)
+  - global memory(GPU): 94.542610 (ms)
+  - share memory(GPU): 69.338196 (ms)
+
+**(gridsize, blocksize):(16,256)
+  - global memory(GPU): 94.565620 (ms)
+  - share memory(GPU): 62.969044 (ms)
+
+**(gridsize, blocksize):(32,16)
+  - global memory(GPU): 105.915703 (ms)
+  - share memory(GPU): 106.927147 (ms)
+
+**(gridsize, blocksize):(32,32)
+  - global memory(GPU): 97.856415 (ms)
+  - share memory(GPU): 82.515076 (ms)
+
+**(gridsize, blocksize):(32,64)
+  - global memory(GPU): 95.496864 (ms)
+  - share memory(GPU): 69.383522 (ms)
+
+**(gridsize, blocksize):(32,128)
+  - global memory(GPU): 94.722870 (ms)
+  - share memory(GPU): 76.983208 (ms)
+
+**(gridsize, blocksize):(32,256)
+  - global memory(GPU): 94.531242 (ms)
+  - share memory(GPU): 59.755596 (ms)
+
+**(gridsize, blocksize):(64,16)
+  - global memory(GPU): 95.763710 (ms)
+  - share memory(GPU): 81.856628 (ms)
+
+**(gridsize, blocksize):(64,32)
+  - global memory(GPU): 94.661644 (ms)
+  - share memory(GPU): 69.301239 (ms)
+
+**(gridsize, blocksize):(64,64)
+  - global memory(GPU): 94.609489 (ms)
+  - share memory(GPU): 62.938313 (ms)
+
+**(gridsize, blocksize):(64,128)
+  - global memory(GPU): 94.611938 (ms)
+  - share memory(GPU): 59.679485 (ms)
+
+**(gridsize, blocksize):(64,256)
+  - global memory(GPU): 94.506737 (ms)
+  - share memory(GPU): 58.688435 (ms)
+
+**(gridsize, blocksize):(128,16)
+  - global memory(GPU): 112.513245 (ms)
+  - share memory(GPU): 69.855568 (ms)
+
+**(gridsize, blocksize):(128,32)
+  - global memory(GPU): 94.542824 (ms)
+  - share memory(GPU): 62.884548 (ms)
+
+**(gridsize, blocksize):(128,64)
+  - global memory(GPU): 94.571106 (ms)
+  - share memory(GPU): 59.704971 (ms)
+
+**(gridsize, blocksize):(128,128)
+  - global memory(GPU): 94.585838 (ms)
+  - share memory(GPU): 58.522614 (ms)
+
+**(gridsize, blocksize):(128,256)
+  - global memory(GPU): 94.615150 (ms)
+  - share memory(GPU): 58.732502 (ms)
+
+**(gridsize, blocksize):(256,16)
+  - global memory(GPU): 94.697472 (ms)
+  - share memory(GPU): 63.187862 (ms)
+
+**(gridsize, blocksize):(256,32)
+  - global memory(GPU): 94.592285 (ms)
+  - share memory(GPU): 74.778984 (ms)
+
+**(gridsize, blocksize):(256,64)
+  - global memory(GPU): 94.786232 (ms)
+  - share memory(GPU): 58.551208 (ms)
+
+**(gridsize, blocksize):(256,128)
+  - global memory(GPU): 94.622154 (ms)
+  - share memory(GPU): 58.600586 (ms)
+
+**(gridsize, blocksize):(256,256)
+  - global memory(GPU): 94.612770 (ms)
+  - share memory(GPU): 58.669086 (ms)
+
+ best setting for GPU global memory: (gridsize, blocksize, performance(ms)): (64, 256, 94.506737 ms)
+ best setting for GPU share memory: (gridsize, blocksize, performance(ms)): (128, 128, 58.522614 ms)
+Process time for CPU: 85.094498 (ms) 
